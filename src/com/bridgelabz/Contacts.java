@@ -73,4 +73,17 @@ public class Contacts {
     public String getEmail() {
         return emailID;
     }
+
+    public String toString() {
+        return "Contacts{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", zip=" + zipCode +
+                ", phoneNumber=" + phoneNumber +
+                ", email='" + emailID + '\'' +
+                "}\n";
+    }
 }
